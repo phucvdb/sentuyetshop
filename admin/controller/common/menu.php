@@ -2,7 +2,13 @@
 class ControllerCommonMenu extends Controller {
 	public function index() {
 		$this->load->language('common/menu');
-
+		// pavo 2.2 edit
+		$data['pavo_link'] = $this->url->link('module/themecontrol', 'token=' . $this->session->data['token'], 'true');
+		$data['megamenu_link'] = $this->url->link('module/pavmegamenu', 'token=' . $this->session->data['token'], 'true');
+		$data['pavblog_link'] = $this->url->link('module/pavblog', 'token=' . $this->session->data['token'], 'true');
+		$data['pavnewsletter_link'] = $this->url->link('module/pavnewsletter', 'token=' . $this->session->data['token'], 'true');
+		// pavo 2.2 end edit
+	
 		$data['text_analytics'] = $this->language->get('text_analytics');
 		$data['text_affiliate'] = $this->language->get('text_affiliate');
 		$data['text_api'] = $this->language->get('text_api');

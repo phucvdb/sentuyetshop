@@ -80,6 +80,20 @@
       <?php } ?>
     </ul>
   </li>
+
+  <!-- pav 2.2 edit -->
+  <li><a class="parent">
+    <i class="fa fa-rocket fa-fw"></i> <span><?php echo 'Pavo Theme Control'; ?></span></a>
+    <ul>
+      <li><a href="<?php echo $pavo_link; ?>">Theme Control</a></li>
+      <li><a href="<?php echo $megamenu_link; ?>">MegaMenu</a></li>
+      <li><a href="<?php echo $pavblog_link; ?>">Pav Blog</a></li>
+      <li><a href="<?php echo $pavnewsletter_link; ?>">Pav Newsletter</a></li>
+    </ul> 
+  </li>
+  <!-- pav 2.2 end edit -->
+
+
   <li id="design"><a class="parent"><i class="fa fa-television fa-fw"></i> <span><?php echo $text_design; ?></span></a>
     <ul>
       <li><a href="<?php echo $layout; ?>"><?php echo $text_layout; ?></a></li>

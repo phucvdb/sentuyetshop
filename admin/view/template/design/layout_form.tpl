@@ -103,7 +103,45 @@
                     <?php } ?>
                     <?php } ?>
                   </select></td>
-                <td class="text-left"><select name="layout_module[<?php echo $module_row; ?>][position]" class="form-control">
+		<!-- pavo 2.2 edit -->
+                <td class="text-left">
+					<select name="layout_module[<?php echo $module_row; ?>][position]" class="form-control">
+					<option value="slideshow"   <?php if ($layout_module['position'] == 'slideshow') { ?>selected="selected"<?php } ?>>
+			 		 	<?php echo ucfirst('slideshow'); ?>
+			 		 </option>
+			 		 
+
+			 		
+		
+			 		 <option value="promotion"   <?php if ($layout_module['position'] == 'promotion') { ?>selected="selected"<?php } ?>>
+			 		 	<?php echo ucfirst('promotion'); ?>
+			 		 </option>
+			 
+			 		 <option value="showcase"   <?php if ($layout_module['position'] == 'showcase') { ?>selected="selected"<?php } ?>>
+			 		 	<?php echo ucfirst('showcase'); ?>
+			 		 </option>
+			
+			 		 <option value="mass_bottom"   <?php if ($layout_module['position'] == 'mass_bottom') { ?>selected="selected"<?php } ?>>
+			 		 	<?php echo ucfirst('Mass Bottom'); ?>
+			 		 </option>
+			 	
+			 		 <option value="footer_top"   <?php if ($layout_module['position'] == 'footer_top') { ?>selected="selected"<?php } ?>>
+			 		 	<?php echo ucfirst('Footer Top'); ?>
+			 		 </option>
+			 		  <option value="footer_center"   <?php if ($layout_module['position'] == 'footer_center') { ?>selected="selected"<?php } ?>>
+			 		 	<?php echo ucfirst('Footer Center'); ?>
+			 		 </option>
+			 		  <option value="footer_bottom"   <?php if ($layout_module['position'] == 'footer_bottom') { ?>selected="selected"<?php } ?>>
+			 		 	<?php echo ucfirst('Footer Bottom'); ?>
+			 		 </option>
+
+           <option value="outsite_left"  <?php if ($layout_module['position'] == 'outsite_left') { ?>selected="selected"<?php } ?>>
+            <?php echo ucfirst('outsite_left'); ?>
+           </option>
+           <option value="outsite_right"  <?php if ($layout_module['position'] == 'outsite_right') { ?>selected="selected"<?php } ?>>
+            <?php echo ucfirst('outsite_right'); ?>
+           </option>
+	   <!-- pavo 2.2 end edit -->
                     <?php if ($layout_module['position'] == 'content_top') { ?>
                     <option value="content_top" selected="selected"><?php echo $text_content_top; ?></option>
                     <?php } else { ?>
@@ -184,6 +222,20 @@ function addModule() {
     html += '    <option value="content_bottom"><?php echo $text_content_bottom; ?></option>';
     html += '    <option value="column_left"><?php echo $text_column_left; ?></option>';
     html += '    <option value="column_right"><?php echo $text_column_right; ?></option>';
+   
+    // pavo 2.2 edit
+    html += '    <option value="promotion"><?php echo "promotion"; ?></option>';
+    html += '    <option value="showcase"><?php echo "showcase"; ?></option>';
+    html += '    <option value="mass_bottom"><?php echo "mass bottom"; ?></option>';
+
+    html += '    <option value="footer_top"><?php echo "footer top"; ?></option>';
+    html += '    <option value="footer_center"><?php echo "footer center"; ?></option>';
+    html += '    <option value="footer_bottom"><?php echo "footer bottom"; ?></option>';
+    //end pavo fix
+
+    html += '    <option value="outsite_left"><?php echo "outsite left"; ?></option>';
+    html += '    <option value="outsite_right"><?php echo "outsite right"; ?></option>';
+    // pavo 2.2 end edit
     html += '  </select></td>';
 	html += '  <td class="text-left"><input type="text" name="layout_module[' + module_row + '][sort_order]" value="" placeholder="<?php echo $entry_sort_order; ?>" class="form-control" /></td>';
 	html += '  <td class="text-left"><button type="button" onclick="$(\'#module-row' + module_row + '\').remove();" data-toggle="tooltip" title="<?php echo $button_remove; ?>" class="btn btn-danger"><i class="fa fa-minus-circle"></i></button></td>';
