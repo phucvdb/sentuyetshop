@@ -11,3 +11,5 @@ tar zxvf ../vsts-agent-ubuntu.16.04-x64-2.111.1.tar.gz
 
 ./config.sh --unattended --acceptteeeula --url https://philipvan.visualstudio.com --auth PAT --token $tokenvsts --pool default --agent dockerbuid01
 unset tokenvsts
+sudo ./svc.sh install
+sudo ./svc.sh start
