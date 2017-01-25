@@ -10,5 +10,7 @@ mkdir myagent && cd myagent
 tar zxvf ../vsts-agent-ubuntu.16.04-x64-2.111.1.tar.gz
 
 $tokenvsts=$1
+echo $tokenvsts
+sleep 10
 
 ./config.sh --unattended --acceptteeeula --url https://philipvan.visualstudio.com --auth PAT --token $tokenvsts --pool default --agent dockerbuid01
