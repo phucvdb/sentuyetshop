@@ -17,7 +17,6 @@ RUN set -xe \
 WORKDIR /var/www/html
 
 RUN set -xe \
-    && git clone https://github.com/phucvdb/sentuyetshop.git . \
     && chown -R www-data:www-data .
 
 VOLUME /var/www/html
