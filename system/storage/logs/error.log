@@ -1,0 +1,27 @@
+2017-02-05 9:36:21 - PHP Notice:  Undefined variable: facebook_use in /var/www/html/catalog/view/theme/pav_flower/template/module/widgets/interactive_banner.tpl on line 12
+2017-02-05 9:36:21 - PHP Notice:  Undefined variable: twitter_id in /var/www/html/catalog/view/theme/pav_flower/template/module/widgets/interactive_banner.tpl on line 15
+2017-02-05 9:36:21 - PHP Notice:  Undefined variable: pinterest_user in /var/www/html/catalog/view/theme/pav_flower/template/module/widgets/interactive_banner.tpl on line 18
+2017-02-05 9:36:21 - PHP Notice:  Undefined variable: google_plus in /var/www/html/catalog/view/theme/pav_flower/template/module/widgets/interactive_banner.tpl on line 21
+2017-02-05 9:36:21 - PHP Notice:  Undefined variable: vimeo_user in /var/www/html/catalog/view/theme/pav_flower/template/module/widgets/interactive_banner.tpl on line 24
+2017-02-05 9:36:21 - PHP Notice:  Undefined variable: youtube_user in /var/www/html/catalog/view/theme/pav_flower/template/module/widgets/interactive_banner.tpl on line 27
+2017-02-05 9:36:22 - PHP Notice:  Undefined variable: facebook_use in /var/www/html/catalog/view/theme/pav_flower/template/module/widgets/interactive_banner.tpl on line 12
+2017-02-05 9:36:22 - PHP Notice:  Undefined variable: twitter_id in /var/www/html/catalog/view/theme/pav_flower/template/module/widgets/interactive_banner.tpl on line 15
+2017-02-05 9:36:22 - PHP Notice:  Undefined variable: pinterest_user in /var/www/html/catalog/view/theme/pav_flower/template/module/widgets/interactive_banner.tpl on line 18
+2017-02-05 9:36:22 - PHP Notice:  Undefined variable: google_plus in /var/www/html/catalog/view/theme/pav_flower/template/module/widgets/interactive_banner.tpl on line 21
+2017-02-05 9:36:22 - PHP Notice:  Undefined variable: vimeo_user in /var/www/html/catalog/view/theme/pav_flower/template/module/widgets/interactive_banner.tpl on line 24
+2017-02-05 9:36:22 - PHP Notice:  Undefined variable: youtube_user in /var/www/html/catalog/view/theme/pav_flower/template/module/widgets/interactive_banner.tpl on line 27
+2017-02-05 9:36:42 - PHP Notice:  Undefined variable: facebook_use in /var/www/html/catalog/view/theme/pav_flower/template/module/widgets/interactive_banner.tpl on line 12
+2017-02-05 9:36:42 - PHP Notice:  Undefined variable: twitter_id in /var/www/html/catalog/view/theme/pav_flower/template/module/widgets/interactive_banner.tpl on line 15
+2017-02-05 9:36:42 - PHP Notice:  Undefined variable: pinterest_user in /var/www/html/catalog/view/theme/pav_flower/template/module/widgets/interactive_banner.tpl on line 18
+2017-02-05 9:36:42 - PHP Notice:  Undefined variable: google_plus in /var/www/html/catalog/view/theme/pav_flower/template/module/widgets/interactive_banner.tpl on line 21
+2017-02-05 9:36:42 - PHP Notice:  Undefined variable: vimeo_user in /var/www/html/catalog/view/theme/pav_flower/template/module/widgets/interactive_banner.tpl on line 24
+2017-02-05 9:36:42 - PHP Notice:  Undefined variable: youtube_user in /var/www/html/catalog/view/theme/pav_flower/template/module/widgets/interactive_banner.tpl on line 27
+2017-02-05 9:36:42 - PHP Notice:  Undefined variable: facebook_use in /var/www/html/catalog/view/theme/pav_flower/template/module/widgets/interactive_banner.tpl on line 12
+2017-02-05 9:36:42 - PHP Notice:  Undefined variable: twitter_id in /var/www/html/catalog/view/theme/pav_flower/template/module/widgets/interactive_banner.tpl on line 15
+2017-02-05 9:36:42 - PHP Notice:  Undefined variable: pinterest_user in /var/www/html/catalog/view/theme/pav_flower/template/module/widgets/interactive_banner.tpl on line 18
+2017-02-05 9:36:42 - PHP Notice:  Undefined variable: google_plus in /var/www/html/catalog/view/theme/pav_flower/template/module/widgets/interactive_banner.tpl on line 21
+2017-02-05 9:36:42 - PHP Notice:  Undefined variable: vimeo_user in /var/www/html/catalog/view/theme/pav_flower/template/module/widgets/interactive_banner.tpl on line 24
+2017-02-05 9:36:42 - PHP Notice:  Undefined variable: youtube_user in /var/www/html/catalog/view/theme/pav_flower/template/module/widgets/interactive_banner.tpl on line 27
+2017-02-05 15:46:21 - PHP Warning:  array_merge(): Argument #2 is not an array in /var/www/html/catalog/view/theme/pav_flower/template/common/parts/head.tpl on line 11
+2017-02-05 15:50:43 - PHP Warning:  array_merge(): Argument #2 is not an array in /var/www/html/catalog/view/theme/pav_flower/template/common/parts/head.tpl on line 11
+2017-02-05 15:56:27 - PHP Warning:  array_merge(): Argument #2 is not an array in /var/www/html/catalog/view/theme/pav_flower/template/common/parts/head.tpl on line 11

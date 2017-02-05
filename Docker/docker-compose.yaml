@@ -1,5 +1,5 @@
 opencart:
-  image: phucvd/sentuyetshop:2.0
+  image: phucvd/sentuyetshop:3.0
   ports:
     - "8000:80"
   links:
